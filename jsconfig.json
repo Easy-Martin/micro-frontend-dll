@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "jsx": "react"
+  },
+  "exclude": ["node_modules", "public/static", "public/library", "build"],
+  "tabSize": 2,
+  "editor.formatOnSave": true
+}

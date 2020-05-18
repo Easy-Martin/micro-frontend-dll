@@ -1,0 +1,45 @@
+{
+  "name": "micro-frontend-dll",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "baseUrl": "./",
+  "dependencies": {
+    "antd": "^4.1.3",
+    "echarts": "^4.7.0",
+    "lingmou-basic-library": "git+ssh://git@42.51.12.153:10022/aice/lingmou-basic-library.git",
+    "lingmou-components": "git+ssh://git@42.51.12.153:10022/aice/lingmou-components.git",
+    "lodash": "^4.17.15",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "qiankun": "2.0.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "react-dev-utils": "^10.2.1",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "dll": "node scripts/dll.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
